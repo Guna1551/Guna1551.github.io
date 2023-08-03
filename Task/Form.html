@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        button{
+        margin-left: 650px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="color: red;" align = "center">Signup Form</h2>
+
+    <br>
+
+    <table align="center">
+        <form>
+            <div>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" placeholder="Enter first name" name="firstName" ></td>
+            </tr>
+        </div>
+        <div>
+            <div>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" placeholder="Enter last name" name="lasttName" ></td>
+                </tr>
+            </div>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" placeholder="Email" "email"></td>
+            </tr>
+        </div>
+        <div>
+
+            <div>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Others
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>City</th>
+                    <td>
+                        <select>
+                            <option value="Bengaluru"></option>
+                            <option value="Musuru"></option>
+                            <option value="Mumbai"></option>
+                        </select>
+                    </td>
+                    </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>
+                        <input type="date" name="dateOfBirth">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Age</th>
+                    <td><input type="number" name="age"></td>
+                </tr>
+            </div>
+            <tr>
+                <div>
+                    <tr>
+                    <th>Address</th>
+                    <td>
+                        <textarea name="address" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                </div>
+
+                <div>
+                    <tr>
+                        <th>Upload File</th>
+                        <td><input type="file" name="uploadedFile"></td>
+                    </tr>
+                </div>
+                <th>User Name</th>
+                <td><input type="text" placeholder="Enter user name" name="firstName" ></td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" placeholder="Password" name="password"></td>
+            </tr>
+           
+        </div>
+        
+        </form>
+    </table>
+
+    <button  type="submit">submit</button>
+    <button type="reset">Reset</button>
+</body>
+</html>
